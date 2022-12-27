@@ -1,0 +1,110 @@
+<div class="container">
+    <div class="profile-image-container">
+        <img class="profile-image" src="../assets/images/asd.jpg">
+        <span class="name">
+            Jeremiah Malicdem (He/Him)
+        </span>
+        <span class="title">
+            Software Engineer
+        </span>
+        <span class="quote">
+            I am a striving Developer who can do Web Applications, Mobile Applications, Desktop Applications, and Restful API's. I love playing around with my code but never with a lady's heart. Writes magical code.
+        </span>
+        <i class="fa-solid fa-arrow-down-long double-down"></i>
+
+        <div class="work-experiences">
+            <h1>Work Experiences:</h1>
+            <div class="work" *ngFor="let exp of workExperiences">
+                <span>Company: {{ exp.company }}</span><br>
+                <span>Position: {{ exp.title }}</span> <br>    
+                <span>Date: {{ exp.date }}</span>
+
+                <h3>Technologies Used</h3>
+                <div class="stacks" *ngFor="let stack$ of exp.stack">
+                    {{ stack$ }}
+                </div>
+            </div>
+        </div>
+
+        <i class="fa-solid fa-arrow-down-long double-down"></i>
+
+        <div class="education">
+            <h1>Education</h1>
+            <div class="work">
+                <span>National University, Manila</span><br>
+                <span>Bachelor of Science in Information Technology</span>
+                <span>June 2015 - May 2019</span>
+            </div>
+        </div>
+
+        <i class="fa-solid fa-arrow-down-long double-down"></i>
+
+        <div class="technical-skills">
+            <h1>Technical Skills</h1>
+            <div class="work">
+                <h2>Frontend Development</h2>
+                <span>Angular <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i> </span>
+                <span>React <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i> </span>
+                <span>State Management <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i></span>
+                <span>CSS <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i></span>
+
+                <h2>Mobile Development</h2>
+                <span>Ionic  <i class="fa-solid fa-star star"></i>  <i class="fa-solid fa-star star"></i>  <i class="fa-solid fa-star star"></i>  <i class="fa-solid fa-star star"></i></span>
+                <span>React Native  <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i></span>
+
+                <h2>Backend Development</h2>
+                <span>PHP <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i></span>
+                <span>Laravel <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i></span>
+                <span>NodeJs <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i></span>
+                <span>Express <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i></span>
+
+                <h2>DevOps</h2>
+                <span>CI/CD <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i></span>
+                <span>Azure <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i></span>
+                <span>AWS <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i></span>
+
+                <h2>Operating System</h2>
+                <span>MacOs <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i></span>
+                <span>Windows <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i></span>
+                <span>Linux <i class="fa-solid fa-star star"></i> <i class="fa-solid fa-star star"></i></span>
+            </div>
+        </div>
+
+        <i class="fa-solid fa-arrow-down-long double-down"></i>
+
+
+        <div class="soft-skills">
+            <h1>Soft Skills</h1>
+            <div class="work">
+                <span>Time Management</span>
+                <span>Communication</span>
+                <span>Leadership</span>
+                <span>Problem Solving</span>
+                <span>Adaptability</span>
+                <span>Creativity</span>
+            </div>
+        </div>
+
+        <i class="fa-solid fa-arrow-down-long double-down"></i>
+
+        <div>
+            <h2>Github</h2>
+            <a href="https://github.com/jmalicdem45" target="_blank">
+                <i class="fa-brands fa-github social"></i>
+            </a>
+        </div>
+
+        <i class="fa-solid fa-arrow-down-long double-down"></i>
+
+        <h2>You want to work with me? Just contact me on</h2>
+
+        <div class="footer">
+            <a href="https://www.linkedin.com/in/jeremiah-malicdem-a4a188181/" target="_blank"><i class="fa-brands fa-linkedin social"></i></a>
+            <a href="mailto:jmalicdem45@gmail.com" target="_blank"><i class="fa-solid fa-envelope social"></i></a>
+        </div>
+
+        <span class="last-text">
+            I can Rapidly make Web and Mobile Applications that has the quality you are looking for.
+        </span>
+    </div>
+</div>
